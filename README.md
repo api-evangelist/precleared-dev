@@ -1,4 +1,4 @@
-# precleared-dev
+# Precleared
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-precleared-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://precleared.dev/
+Precleared provides AI‑driven compliance checks for outbound cold‑email campaigns. It evaluates whether a given recipient address is allowed to be contacted under the applicable legal rules across multiple jurisdictions, returning a verdict, the rule citation, required email footer text, and a signed receipt. The service offers a free tier with limited daily checks and paid plans for higher volumes, and publishes public documentation, pricing, terms, and privacy policies on its website.
+
+**Areas:** AI · Compliance · Email · Marketing · Legal
+
+## Precleared on APIs.io
+
+Everything profiled for Precleared is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/precleared-dev/](https://apis.io/providers/precleared-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (12)
+
+- [Precleared Agent API](https://apis.io/apis/precleared-dev/precleared-dev-agent-api/) — The Agent API from Precleared — 1 operation(s) for agent.
+- [Precleared Check API](https://apis.io/apis/precleared-dev/precleared-dev-check-api/) — The Check API from Precleared — 1 operation(s) for check.
+- [Precleared Checkout API](https://apis.io/apis/precleared-dev/precleared-dev-checkout-api/) — The Checkout API from Precleared — 1 operation(s) for checkout.
+- [Precleared Gate API](https://apis.io/apis/precleared-dev/precleared-dev-gate-api/) — The Gate API from Precleared — 1 operation(s) for gate.
+- [Precleared Health API](https://apis.io/apis/precleared-dev/precleared-dev-health-api/) — The Health API from Precleared — 1 operation(s) for health.
+- [Precleared Hooks API](https://apis.io/apis/precleared-dev/precleared-dev-hooks-api/) — The Hooks API from Precleared — 2 operation(s) for hooks.
+- [Precleared Key API](https://apis.io/apis/precleared-dev/precleared-dev-key-api/) — The Key API from Precleared — 1 operation(s) for key.
+- [Precleared Keys API](https://apis.io/apis/precleared-dev/precleared-dev-keys-api/) — The Keys API from Precleared — 1 operation(s) for keys.
+- [Precleared Pay API](https://apis.io/apis/precleared-dev/precleared-dev-pay-api/) — The Pay API from Precleared — 1 operation(s) for pay.
+- [Precleared Public Key API](https://apis.io/apis/precleared-dev/precleared-dev-public-key-api/) — The Public Key API from Precleared — 1 operation(s) for public key.
+- [Precleared Receipt API](https://apis.io/apis/precleared-dev/precleared-dev-receipt-api/) — The Receipt API from Precleared — 1 operation(s) for receipt.
+- [Precleared Rules API](https://apis.io/apis/precleared-dev/precleared-dev-rules-api/) — The Rules API from Precleared — 1 operation(s) for rules.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Precleared Agentic Access](https://apis.io/agentic-access/precleared-dev/precleared-dev-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [CheckRequest](https://apis.io/schemas/precleared-dev/precleared-dev-check-request/)
+- [CheckResponse](https://apis.io/schemas/precleared-dev/precleared-dev-check-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Precleared Dev Context](https://apis.io/jsonld/precleared-dev/precleared-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Precleared API Rules](https://apis.io/rules/precleared-dev/precleared-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Precleared Authentication](https://apis.io/security/precleared-dev/precleared-dev-authentication/)
+- [Precleared Domain Security](https://apis.io/security/precleared-dev/precleared-dev-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Precleared Plans Pricing](https://apis.io/plans/precleared-dev/precleared-dev-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://precleared.dev/)
+- [Documentation](https://precleared.dev/docs)
+- [API reference](https://precleared.dev/api/v1/public-key)
+- [Pricing](https://precleared.dev/buy)
+- [Support](https://precleared.dev/support)
+- [Security](https://precleared.dev/security)
+- [Terms of service](https://precleared.dev/terms)
+- [Privacy policy](https://precleared.dev/privacy)
+
+## API Evangelist rating
+
+**Kin Score 51.6** — developing · rubric 0.27.0 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 57.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 60.0 |
+
+**Agent readiness 58.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/precleared-dev/](https://apis.io/providers/precleared-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Precleared: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/precleared-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
